@@ -41,10 +41,14 @@ section {
   width: 4em;
   margin-left: 0.3em;
 }
+.panel-active header img {
+  display: none;
+}
 
 /*  Panel */
 header {
   font-family: "Lato", sans-serif;
+  font-weight: bold;
   transform: rotate(-90deg);
   font-size: min(5vw, 32px);
   margin: 0;
