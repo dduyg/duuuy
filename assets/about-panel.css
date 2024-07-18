@@ -45,13 +45,10 @@ section {
 header {
   font-family: "Lato", sans-serif;
   transform: rotate(-90deg);
-  margin: 0; /* Reset margin */
-  padding: 0; /* Reset padding */
 } 
 header h1 {
   font-size: min(5vw, 32px);
   margin: 0;
-  padding: 0;
 }
 @media screen and (min-width: 1200px) {
   header h1 {
@@ -60,14 +57,15 @@ header h1 {
 }
 .panel-active header {
   color: var(--marker);
+  letter-spacing: 2px;
   transform: rotate(0deg);
   transition: 0.5s ease;
 }
 .panel-active header h1 {
   font-size: calc(1.3 * min(5vw, 32px));
 }
-#bio header, #contact header {
-  transform: rotate(0deg); /* No rotation for icon */
+#contact header {
+  transform: rotate(0deg); /* Rotation normal for icon */
 }
 #contact h1 i {
   font-size: 1.1em;
