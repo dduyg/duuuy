@@ -27,24 +27,6 @@ section {
   border-right: none;
 }
 
-.profile-img {
-  position: relative;
-  display: inline-block;
-  width: 5em;
-  border-radius: 50%;
-  border: 1px solid black;
-  float: right;
-  margin: 0;
-  padding: 0;
-}
-.panel-inactive .profile-img {
-  width: 3.5em;
-  margin-left: 0.3em;
-}
-.panel-active #bio header img {
-  display: none !important;
-}
-
 /*  Panel */
 header {
   font-family: "Lato", sans-serif;
@@ -72,6 +54,27 @@ header {
   font-size: 1.1em;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.profile-img {
+  position: relative;
+  display: inline-block;
+  width: 5em;
+  border-radius: 50%;
+  border: 1px solid black;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+.panel-inactive .profile-img {
+  width: 3.5em;
+  margin-left: 0.3em;
+}
+.panel-active #bio header span {
+  display: none !important;
+}
+#bio header span {
+  font-size: min(4vw, 19px);
 }
 
 .content {
