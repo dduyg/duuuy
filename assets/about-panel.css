@@ -70,10 +70,10 @@ header {
   width: 3.5em;
   margin-left: 0.3em;
 }
-.panel-active #bio header span {
+.panel-inactive #bio header span {
   display: none !important;
 }
-#bio header span {
+#bio header {
   font-size: min(4vw, 19px);
 }
 
