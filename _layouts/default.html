@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+  <title>{% if page.title %}{{ page.title }} / {% endif %}{{ site.author }}</title>
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/63e03a9b9c.js" crossorigin="anonymous"></script>  
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+  {% for css_file in page.css %}<link rel="stylesheet" href="{{ site.baseurl }}/assets/{{ css_file }}.css">{% endfor %}
+</head>
+<body>
+  <nav>
+    <a class="home-badge" href="{{ site.baseurl }}/">
+      <img id="badge" src="{{ site.baseurl }}/assets/images/badge.gif">  
+    </a>
+    <div id="menu">
+      <a class="item logo-item {% if page.url == '/' %}active{% endif %}" href="{{ site.baseurl }}/">/dduyg</a> 
+      <a class="item {% if page.url contains '/posts/' %}active{% endif %}" href="{{ site.baseurl }}/posts">Posts</a>
+      <a class="item {% if page.url == '/about.html' %}active{% endif %}" href="{{ site.baseurl }}/about">About</a>
+      <a class="item {% if page.url contains '/works/' %}active{% endif %}" href="{{ site.baseurl }}/works">Products</a>
+      <a class="item {% if page.url == '/contact.html' %}active{% endif %}" href="{{ site.baseurl }}/contact">Contact</a>
+    </div>
+    <div id="dropdown-menu">
+      <a href="#" class="dropdown-btn" tabindex="0" aria-haspopup="menu">dduyg</a>
+      <div class="dropdown-content">
+        <a class="item {% if page.url == '/' %}active{% endif %}" style="--delay: 1;" href="{{ site.baseurl }}/">/Home</a>
+        <a class="item {% if page.url contains '/posts/' %}active{% endif %}" style="--delay: 2;" href="{{ site.baseurl }}/posts">/Posts</a>
+        <a class="item {% if page.url == '/about.html' %}active{% endif %}" style="--delay: 3;" href="{{ site.baseurl }}/about">/About</a>
+        <a class="item {% if page.url contains '/works/' %}active{% endif %}" style="--delay: 4;" href="{{ site.baseurl }}/works">/Products</a>
+        <a class="item {% if page.url == '/contact.html' %}active{% endif %}" style="--delay: 5;" href="{{ site.baseurl }}/contact">/Contact</a>
+      </div>
+    </div>
+  </nav>
 
+  <main>
+  <!-- ————————●●●———————— -->
+       {{ content }}
+  <!-- ————————●●●———————— -->
+  </main>
+
+  <footer>
+    {% include footer.html %}
+  </footer>
+</body>
+</html>
