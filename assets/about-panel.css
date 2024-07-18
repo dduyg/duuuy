@@ -39,6 +39,7 @@ section {
 }
 .panel-inactive .profile-img {
   width: 4em;
+  transform: rotate(0deg);
 }
 .panel-inactive header h2 {
   display: none;
@@ -60,7 +61,6 @@ header h1 {
 }
 .panel-active header {
   color: var(--marker);
-  letter-spacing: 3px;
   transform: rotate(0deg);
   transition: 0.5s ease;
 }
