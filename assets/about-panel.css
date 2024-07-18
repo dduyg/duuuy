@@ -41,7 +41,7 @@ section {
   width: 4em;
   margin-left: 0.3em;
 }
-.panel-active header img {
+.panel-active #bio header {
   display: none;
 }
 
