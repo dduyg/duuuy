@@ -4,7 +4,7 @@
   --marker: #CCCCCC;
   --back: #898989;
   --main-font: "Schibsted Grotesk", sans-serif;
-  --mono-font: "Fira Mono", monospace;
+  --mono-font: 'Lab Mono', monospace;
 }
 @font-face {
   font-family: 'Lab Mono';
