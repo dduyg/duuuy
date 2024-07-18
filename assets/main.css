@@ -35,8 +35,7 @@ a {
   vertical-align: middle;
 }
 
-/****** Navigation */
-/* Default Navigation for smaller screens */
+/******* Navigation */
 nav {
   position: absolute;
   top: 0;
@@ -125,7 +124,7 @@ nav {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: .5rem 1rem;
   margin-bottom: .5rem;
-  background: #7B7B7B;
+  background: #898989;
   text-align: center;
   text-decoration: none;
   font-size: 2em;
@@ -157,7 +156,7 @@ nav {
 }
 
 .dropdown-content .item:hover {
-  background: #969696;
+  background: #7B7B7B;
 }
 
 /* Navigation for larger screens with a min-width of 30em */
