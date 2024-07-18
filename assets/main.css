@@ -7,9 +7,9 @@
   --mono-font: "Fira Mono", monospace;
 }
 @font-face {
-  font-family: 'LabMono';
-  src: url('/assets/labmono-regular-web.woff2') format('woff2'),
-       url('/assets/labmono-regular-web.woff') format('woff');
+  font-family: 'Lab Mono';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
