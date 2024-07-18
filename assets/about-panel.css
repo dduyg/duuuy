@@ -37,7 +37,10 @@ section {
   margin: 0;
   padding: 0;
 }
-.panel-inactive header .profile-img {
+.panel-inactive .profile-img {
+  width: 4em;
+}
+.panel-inactive header h2 {
   display: none;
 }
 
