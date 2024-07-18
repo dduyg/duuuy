@@ -4,12 +4,21 @@
   --marker: #CCCCCC;
   --back: #898989;
   --main-font: "Schibsted Grotesk", sans-serif;
-  --mono-font: 'LabMono', monospace;
+  --mono-font: 'Fantasque Sans Mono', monospace;
 }
 @font-face {
   font-family: 'LabMono';
   src: url('/assets/labmono-regular-web.woff2') format('woff2'),
        url('/assets/labmono-regular-web.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Fantasque Sans Mono';
+  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff2') format('woff2'),
+       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/FantasqueSansMono-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
