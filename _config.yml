@@ -1,0 +1,45 @@
+# Site settings
+title: dduyg
+author: Duygu Dağdelen
+description: As a data scientist with a flair for creativity, bringing ideas to life by developing data products
+url: "https://dduyg.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist # Plugin that allows you to embed GitHub Gists directly
+  - jekyll-seo-tag # Plugin to generate SEO meta tags
+
+# SEO settings
+seo:
+  name: Duygu Dağdelen
+  title: dduyg
+  description: As a data scientist with a flair for creativity, bringing ideas to life by developing data products
+  keywords: dduyg, data-scientist, website, code
+  social:
+    twitter: "@yourtwitterhandle"
+    facebook: "yourfacebookpage"
+    instagram: "yourinstagramhandle"
+
+# Socials
+networks:
+  - title: GitHub
+    url: https://github.com/dduyg
+    icon: fab fa-github
+  - title: Instagram
+    url: https://instagram.com/insert.data
+    icon: fab fa-instagram
+  - title: Ko-fi
+    url: https://ko-fi.com/dduyg
+    icon: far fa-heart
+  - title: Medium
+    url: https://medium.com/@dduyg
+    icon: fab fa-medium
+  - title: Behance
+    url: https://www.behance.net/dduyg
+    icon: fab fa-behance
+  - title: INPRNT
+    url: https://www.inprnt.com/gallery/insert.data
+    icon: fas fa-vector-square
