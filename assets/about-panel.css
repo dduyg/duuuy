@@ -21,8 +21,6 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 0; /* Reset margin */
-  padding: 0; /* Reset padding */
 }
 
 #contact {
@@ -47,6 +45,8 @@ section {
 header {
   font-family: "Lato", sans-serif;
   transform: rotate(-90deg);
+  margin: 0; /* Reset margin */
+  padding: 0; /* Reset padding */
 } 
 header h1 {
   font-size: min(5vw, 32px);
