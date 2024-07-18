@@ -45,7 +45,6 @@ header {
   letter-spacing: 2px;
   transform: rotate(0deg);
   transition: 0.5s ease;
-  font-size: calc(1.3 * min(5vw, 32px));
 }
 #bio header, #contact header {
   transform: rotate(0deg); /* No rotation for image/icon */
