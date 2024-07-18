@@ -1,0 +1,20 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 1.25em;
+  margin: 2em auto 0;
+  max-width: 800px;
+  font-size: 1.1em;
+}
+
+h1 {
+  font-family: "Syncopate", sans-serif;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+}

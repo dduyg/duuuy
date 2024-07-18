@@ -1,1 +1,84 @@
+/* Styling for the contact form */
+body, html {
+    height: 100%;
+    margin: 0;
+}
 
+#contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1em;
+    margin-top: 3em;
+}
+
+#contact-form h1 {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contacting {
+    max-width: 600px;
+    width: 100%;
+}
+
+.form-group {
+    font-family: var(--mono-font);
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--color-light-main);
+    font-size: 1rem;
+    font-family: var(--mono-font);
+    box-sizing: border-box;
+    background-color: #969696;
+    outline: none; /* Remove default browser outline */
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: var(--marker);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-family: var(--mono-font);
+    background-color: var(--color-light-main);
+    color: var(--marker);
+    letter-spacing: 2px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid var(--marker);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: translateZ(0);
+    transition: background-color 0.3s ease, transform 0.25s ease-out;
+}
+
+form button:hover, form button:focus {
+    transform: scale(1.05);
+    background-color: var(--back);
+}
+
+form button:active {
+    transform: scale(0.9);
+}
