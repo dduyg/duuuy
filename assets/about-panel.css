@@ -39,19 +39,19 @@ section {
 }
 .panel-inactive .profile-img {
   width: 4em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 /*  Panel */
 header {
   font-family: "Lato", sans-serif;
   transform: rotate(-90deg);
-} 
-header h1 {
   font-size: min(5vw, 32px);
   margin: 0;
 }
 @media screen and (min-width: 1200px) {
-  header h1 {
+  header {
       font-size: 32px; /* Resets font size to 32px for screens wider than 1200px */
   }
 }
@@ -60,14 +60,12 @@ header h1 {
   letter-spacing: 2px;
   transform: rotate(0deg);
   transition: 0.5s ease;
-}
-.panel-active header h1 {
   font-size: calc(1.3 * min(5vw, 32px));
 }
-#contact header {
-  transform: rotate(0deg); /* Rotation normal for icon */
+#bio header, #contact header {
+  transform: rotate(0deg); /* No rotation for image/icon */
 }
-#contact h1 i {
+#contact i {
   font-size: 1.1em;
   padding-left: 15px;
   padding-right: 15px;
