@@ -35,7 +35,8 @@ a {
   vertical-align: middle;
 }
 
-/******* Navigation */
+/* Navigation
+------------------------------*/
 nav {
   position: absolute;
   top: 0;
@@ -196,10 +197,10 @@ nav {
   #dropdown-menu {
     display: none;
   }
-}  
-/********************************/
+}
 
-/* Footer */
+/* Footer
+------------------------------*/
 footer {
   font-family: var(--mono-font);
   padding: 2rem;
