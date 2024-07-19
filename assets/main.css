@@ -272,6 +272,8 @@ footer {
 nav, main, footer {
   outline: none;
   -webkit-tap-highlight-color: transparent;
+}
+nav, footer {
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
