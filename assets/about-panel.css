@@ -66,11 +66,8 @@ header {
   padding: 0;
 }
 .panel-inactive .profile-img {
-  width: 3.5em;
+  width: 4em;
   margin-left: 0.3em;
-}
-.panel-inactive #bio header span {
-  display: none !important;
 }
 #bio header {
   font-size: min(4vw, 19px);
