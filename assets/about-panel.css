@@ -42,7 +42,6 @@ header {
 }
 .panel-active header {
   color: var(--marker);
-  letter-spacing: 2px;
   transform: rotate(0deg);
   transition: 0.5s ease;
 }
