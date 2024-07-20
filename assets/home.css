@@ -8,6 +8,7 @@ main {
   margin: 2em auto 0;
   max-width: 800px;
   font-size: 1.1em;
+  color: var(--color-light-main);
 }
 
 h1 {
