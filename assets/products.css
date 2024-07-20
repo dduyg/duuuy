@@ -56,11 +56,13 @@ summary::after {
 }
 
 details[open] summary {
-  color: pink;
+  color: var(--marker);
+  font-family: var(--main-font);
   font-weight: bold;
 }
 
 details[open] summary::after {
+  color: var(--color-main);
   transform: translateY(-50%) rotate(45deg);
 }
 
