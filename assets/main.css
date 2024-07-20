@@ -81,11 +81,10 @@ nav {
 .dropdown-btn {
   position: relative;
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.1em;
   margin-right: 1rem;
   letter-spacing: 3px;
   font-family: var(--mono-font);
-  font-weight: bold;
   cursor: pointer;
 }
 
