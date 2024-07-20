@@ -1,1 +1,90 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.25em;
+  box-sizing: border-box;
+}
 
+h1 {
+  align-self: flex-start;
+  padding: 0 0 10px;
+  margin: 0;
+}
+
+.works {
+  width: 100%;
+  border-top: 0.0625em solid currentColor;
+}
+
+details {
+  border-bottom: 0.0625em solid currentColor;
+  position: relative;
+  padding: 0;
+}
+
+summary {
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;  
+  list-style-type: none;
+  padding: 0.625em 0;
+  margin: 0;
+}
+summary::marker {
+  display: none;
+}
+
+summary::after {
+  content: " ";
+  width: 0.5em;
+  height: 0.5em;
+  border-right: 0.0625em solid currentColor;
+  border-bottom: 0.0625em solid currentColor;
+  position: absolute;
+  right: 0.625em;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  transition: transform 0.2s ease-in-out;
+}
+
+details[open] summary {
+  color: pink;
+  font-weight: bold;
+}
+
+details[open] summary::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+details .work {
+  padding: 1.25em 0;
+}
+
+details[open] .work {
+  display: block;
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+details:focus {
+  box-shadow: 0 0 0 2px #00f;
+}
