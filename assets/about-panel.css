@@ -14,7 +14,7 @@ main {
 }
 
 section {
-  border-right: 1px black solid;
+  border-right: 0.0625em black solid;
   display: flex;
   flex: 1;
   height: 70%;
@@ -59,7 +59,7 @@ header {
   display: inline-block;
   width: 5em;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 0.0625em solid black;
   float: right;
   margin: 0;
   padding: 0;
