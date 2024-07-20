@@ -42,7 +42,7 @@ u {
 u::before {
   content: '';
   position: absolute;
-  top: -0.33em;
+  top: -0.25em;
   left: 0;
   right: 0;
   height: 1.1px; /* Intermediate thickness */
