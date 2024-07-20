@@ -84,7 +84,8 @@ nav {
   font-size: 1em;
   margin-right: 1rem;
   letter-spacing: 3px;
-  font-family: var(--color-main);
+  font-family: var(--mono-font);
+  font-weight: bold;
   cursor: pointer;
 }
 
