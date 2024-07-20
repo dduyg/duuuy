@@ -1,9 +1,9 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87);
   --color-light-main: #292721; 
-  --marker: #f0e5e5;
+  --marker: #C9C9BF;
   --back: #9D9D9D;
-  --main-font: "Libre Franklin", sans-serif;
+  --main-font: "Lato", sans-serif;
   --mono-font: "Fira Code", monospace;
 }
 
@@ -216,7 +216,7 @@ footer {
 .site-copyright {
   font-size: .7rem;
   font-weight: bold;
-  color: #626262;
+  color: #585858;
   display: block;
   vertical-align: middle; 
   width: 100%;
