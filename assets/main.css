@@ -215,6 +215,8 @@ footer {
 }
 .site-copyright {
   font-size: .7rem;
+  font-weight: bold;
+  color: var(--color-light-main);
   display: block;
   vertical-align: middle; 
   width: 100%;
