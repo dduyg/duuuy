@@ -68,3 +68,24 @@
     }
   }
 </script>
+
+
+<script src="https://unpkg.com/scrollreveal"></script> 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    ScrollReveal().reveal('section', {
+      origin: 'bottom',
+      distance: '50px',
+      duration: 1000,
+      interval: 200
+    });
+
+    // Re-check the first section after the page load
+    ScrollReveal().reveal('#bio', {
+      origin: 'bottom',
+      distance: '50px',
+      duration: 1000,
+      interval: 200
+    });
+  });
+</script>
