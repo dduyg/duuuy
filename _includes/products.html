@@ -1,1 +1,45 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
+<h1>Products</h1>
+<div class="works">
+  <details>
+    <summary>
+      Lorem ipsum<br>
+      <span>
+       Studioooo
+      </span>
+    </summary>
+    <div class="work">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+    </div>
+  </details>
+  <details>
+    <summary>Repellat Odit Aliquid</summary>
+    <div class="work">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+    </div>
+  </details>
+  <details>
+    <summary>Dolor sit Amet</summary>
+    <div class="work">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+    </div>
+  </details>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const details = document.querySelectorAll('details');
+    details.forEach(detail => {
+      detail.addEventListener('toggle', function(event) {
+        if (event.target.open) {
+          details.forEach(d => {
+            if (d !== event.target) {
+              d.removeAttribute('open');
+            }
+          });
+        }
+      });
+    });
+  });
+</script>
