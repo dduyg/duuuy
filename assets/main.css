@@ -1,7 +1,7 @@
 :root {
   --color-main: rgba(0, 0, 0, 0.87);
   --color-light-main: #292721; 
-  --marker: #F5EDEA;
+  --marker: #d0d0d0;
   --back: #9D9D9D;
   --main-font: "Libre Franklin", sans-serif;
   --mono-font: "Fira Code", monospace;
@@ -84,7 +84,7 @@ nav {
   font-size: 1em;
   margin-right: 1rem;
   letter-spacing: 3px;
-  font-family: var(--mono-font);
+  font-family: var(--color-main);
   cursor: pointer;
 }
 
