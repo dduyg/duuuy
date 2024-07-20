@@ -75,19 +75,8 @@
       origin: 'bottom',
       distance: '50px',
       duration: 1000,
-      interval: 200
+      interval: 200,
+      reset: true // Allow repeated animations on scroll
     });
-
-    // Manually trigger animation for the first section
-    var firstSection = document.querySelector('#bio');
-    if (firstSection) {
-      ScrollReveal().clean(firstSection); // Clean previous state
-      ScrollReveal().reveal(firstSection, {
-        origin: 'bottom',
-        distance: '50px',
-        duration: 1000,
-        interval: 200
-      });
-    }
   });
 </script>
