@@ -6,21 +6,6 @@
   --main-font: "Schibsted Grotesk", sans-serif;
   --mono-font: "Fira Code", monospace;
 }
-@font-face {
-  font-family: 'Lab Mono';
-  src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff2') format('woff2'),
-       url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/labmono-regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-    font-family: 'Droid Sans Mono';
-    src: url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/droid-sans-mono.woff2') format('woff2'),
-         url('https://raw.githubusercontent.com/dduyg/LiminalLoop/main/fonts/droid-sans-mono.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 html, body {
   background-color: var(--back);
