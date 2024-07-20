@@ -23,6 +23,10 @@ section {
   flex-direction: column;
 }
 
+#bio {
+  opacity: 0;
+  transform: translateY(50px);
+}
 #contact {
   border-right: none;
 }
