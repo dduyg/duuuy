@@ -15,8 +15,8 @@ html, body {
   line-height: 1.5;
   font-family: var(--main-font);
   font-weight: 400;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+  -webkit-font-smoothing: antialiased; /* For Chrome, Safari */
+  -moz-osx-font-smoothing: grayscale;  /* For Firefox on Mac */
 }
 
 a {
