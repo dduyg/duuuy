@@ -30,7 +30,7 @@ section {
 header {
   font-weight: bold;
   transform: rotate(-90deg);
-  font-size: min(5vw, 32px);
+  font-size: min(4.6vw, 32px);
   margin: 0;
   padding: 0;
 }
