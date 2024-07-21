@@ -63,8 +63,8 @@ header {
   margin: 0;
   padding: 0;
 }
-.panel-inactive .profile-img {
-  width: 4em;
+#bio.panel-inactive .profile-img {
+  width: 4em !important;
   margin-left: 0.3em;
 }
 #bio.panel-active header .profile-img {
