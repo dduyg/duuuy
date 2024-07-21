@@ -30,7 +30,7 @@ section {
 header {
   font-weight: bold;
   transform: rotate(-90deg);
-  font-size: min(4.6vw, 32px);
+  font-size: min(4.2vw, 32px);
   margin: 0;
   padding: 0;
 }
@@ -41,7 +41,7 @@ header {
 }
 .panel-active header {
   color: var(--marker);
-  font-size: min(6vw, 32px);
+  font-size: min(5.5vw, 32px) !important;
   transform: rotate(0deg);
   transition: 0.5s ease;
   padding: 0 10%;
