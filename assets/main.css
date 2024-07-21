@@ -19,6 +19,11 @@ html, body {
   -moz-osx-font-smoothing: grayscale; 
 }
 
+.lighter {
+  opacity: 0.9; /* Slightly reduce opacity */
+  transform: scale(1, 1.02); /* Slightly scale vertically */
+}
+
 a {
   color: inherit;
   text-decoration: none;
