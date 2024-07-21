@@ -19,7 +19,7 @@ section {
   flex: 1;
   height: 70%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 #contact {
