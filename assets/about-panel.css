@@ -44,7 +44,7 @@ header {
   font-size: min(6vw, 32px);
   transform: rotate(0deg);
   transition: 0.5s ease;
-  padding: 0 9%;
+  padding: 0 10%;
 }
 #bio header, #contact header {
   transform: rotate(0deg); /* No rotation for image/icon */
@@ -79,7 +79,7 @@ header {
 .content {
   display: none;
   font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
-  padding: 0 9%;
+  padding: 3% 10%;
   overflow-x: hidden;
   overflow-y: auto;
   max-width: 800px;
