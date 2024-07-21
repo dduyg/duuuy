@@ -32,7 +32,6 @@ header {
   transform: rotate(-90deg);
   font-size: min(5vw, 32px);
   margin: 0;
-  padding: 0;
 }
 @media screen and (min-width: 1200px) {
   header {
@@ -44,7 +43,6 @@ header {
   font-size: min(6vw, 32px);
   transform: rotate(0deg);
   transition: 0.5s ease;
-  padding: 0 10%;
 }
 #bio header, #contact header {
   transform: rotate(0deg); /* No rotation for image/icon */
