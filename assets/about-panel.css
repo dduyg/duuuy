@@ -67,8 +67,11 @@ header {
   width: 4em;
   margin-left: 0.3em;
 }
-#bio header {
-  font-size: min(4vw, 19px);
+#bio.panel-active header .profile-img {
+  display: none; /* Hide the image in the header */
+}
+#bio.panel-inactive .name {
+  display: none; /* Hide the text name */
 }
 
 .content {
