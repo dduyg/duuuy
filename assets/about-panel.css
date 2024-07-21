@@ -28,7 +28,6 @@ section {
 
 /*  Panel */
 header {
-  font-family: "Alegreya Sans", sans-serif;
   font-weight: bold;
   transform: rotate(-90deg);
   font-size: min(5vw, 32px);
