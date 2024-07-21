@@ -49,6 +49,11 @@ header {
 }
 .panel-inactive header {
   white-space: nowrap;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: flex 0.5s ease; /* Adjust transition if necessary */
 }
 
 #bio header, #contact header {
