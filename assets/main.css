@@ -66,6 +66,7 @@ nav {
 #badge {
   display: inline-block;
   width: 4.5rem;
+  pointer-events: none;
 }
 
 #menu {
