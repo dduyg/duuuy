@@ -44,7 +44,7 @@ header {
   font-size: min(5.5vw, 32px) !important;
   transform: rotate(0deg);
   transition: 0.5s ease;
-  padding: 0 10%;
+  padding: 0 8%;
 }
 #bio header, #contact header {
   transform: rotate(0deg); /* No rotation for image/icon */
@@ -60,7 +60,7 @@ header {
   display: inline-block;
   width: 5em;
   border-radius: 50%;
-  border: 0.0625em solid black;
+  border: 1px solid black;
   float: right;
   margin: 0;
   padding: 0;
@@ -79,7 +79,7 @@ header {
 .content {
   display: none;
   font-size: min(4vw, 19px); /* Limits font size to 19px or 4vw, whichever is smaller */
-  padding: 0 10%;
+  padding: 0 8%;
   overflow-x: hidden;
   overflow-y: auto;
   max-width: 800px;
@@ -100,7 +100,7 @@ header {
 }
 @-moz-document url-prefix() { /* Firefox scrollbar */
   .content {
-    scrollbar-color: #888 transparent; 
+    scrollbar-color: #898989 transparent; 
     scrollbar-width: thin;
   }
   .content::-webkit-scrollbar-thumb {
