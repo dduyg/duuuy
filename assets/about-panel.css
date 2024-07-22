@@ -95,7 +95,7 @@ header {
 }
 .content::-webkit-scrollbar-thumb,
 .content::-webkit-scrollbar-thumb:hover {
-  background: url('scroll.png') no-repeat center center;
+  background: url('https://raw.githubusercontent.com/dduyg/dduyg.github.io/main/assets/images/scroll.png') no-repeat center center;
   background-size: contain;
 }
 @-moz-document url-prefix() { /* Firefox scrollbar */
@@ -104,7 +104,7 @@ header {
     scrollbar-width: thin;
   }
   .content::-webkit-scrollbar-thumb {
-    background: url('scroll.png') no-repeat center center;
+    background: url('https://raw.githubusercontent.com/dduyg/dduyg.github.io/main/assets/images/scroll.png') no-repeat center center;
     background-size: contain;
   }
 }
