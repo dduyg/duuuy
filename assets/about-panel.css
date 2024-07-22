@@ -85,6 +85,30 @@ header {
   max-width: 800px;
   max-height: calc(100% - 20px);
 }
+
+/* Custom scrollbar */
+.content::-webkit-scrollbar {
+  width: 1.1em;
+}
+.content::-webkit-scrollbar-track {
+  background: transparent;
+}
+.content::-webkit-scrollbar-thumb,
+.content::-webkit-scrollbar-thumb:hover {
+  background: url('scroll.png') no-repeat center center;
+  background-size: contain;
+}
+@-moz-document url-prefix() { /* Firefox scrollbar */
+  .content {
+    scrollbar-color: #888 transparent; 
+    scrollbar-width: thin;
+  }
+  .content::-webkit-scrollbar-thumb {
+    background: url('scroll.png') no-repeat center center;
+    background-size: contain;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .content {
       font-size: 19px; /* Resets font size to 19px for screens wider than 1200px */
