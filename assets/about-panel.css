@@ -131,7 +131,7 @@ header {
 .links, .panel-link {
   font-style: italic;
   text-decoration: underline;
-  text-decoration-thickness: 3px;
+  text-decoration-thickness: 2px;
   text-decoration-color: var(--marker);
   transition: color 0.3s ease;
   cursor: pointer;
