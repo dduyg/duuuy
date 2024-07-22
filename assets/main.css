@@ -87,7 +87,7 @@ nav {
   font-size: 1.1em;
   margin-right: 1rem;
   letter-spacing: 3px;
-  font-family: var(--mono-font);
+  font-family: var(--main-font);
   cursor: pointer;
 }
 
