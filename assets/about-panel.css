@@ -28,7 +28,6 @@ section {
 
 /*  Panel */
 header {
-  font-weight: bold;
   transform: rotate(-90deg);
   font-size: min(5vw, 32px);
   margin: 0;
