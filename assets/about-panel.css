@@ -44,7 +44,13 @@ header {
   transform: rotate(0deg);
   transition: 0.5s ease;
   padding: 0 8%;
+  white-space: normal;
 }
+.panel-inactive header {
+  white-space: nowrap;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+}
+
 #bio header, #contact header {
   transform: rotate(0deg); /* No rotation for image/icon */
 }
