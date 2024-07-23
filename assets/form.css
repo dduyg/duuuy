@@ -39,6 +39,7 @@ form label {
     width: 100%;
     padding: 10px;
     border: 1px solid var(--color-light-main);
+    border-radius: .25rem;
     font-size: 1rem;
     font-family: var(--mono-font);
     box-sizing: border-box;
