@@ -25,24 +25,11 @@ section {
 #approach {
   border-right: none;
 }
-#approach i {
-  font-size: 1.1em;
-  display: inline-block;
-  cursor: pointer;
-  border-radius: 50%;
-  border: 1px solid currentColor;
-  padding: 10px;
-  margin-left: 0;  
-}
-#approach i::before {
-  content: '——';
-  display: inline-block;
-  margin-right: 0;
-}
 
 
 /*  Panel */
 header {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
   transform: rotate(-90deg);
   font-size: min(5vw, 32px);
   margin: 0;
@@ -80,7 +67,7 @@ header {
   pointer-events: none;
 }
 #bio.panel-inactive .profile-img {
-  width: 3em !important;
+  width: 3.4em !important;
   margin-left: 0.3em;
 }
 #bio.panel-active header .profile-img {
