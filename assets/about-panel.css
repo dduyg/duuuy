@@ -25,15 +25,13 @@ section {
 #approach {
   border-right: none;
 }
-#contact i {
+#approach i {
   font-size: 1.1em;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /*  Panel */
 header {
-  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  font-family: var(--mono-font);
   transform: rotate(-90deg);
   font-size: min(5vw, 32px);
   margin: 0;
