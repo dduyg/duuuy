@@ -27,7 +27,19 @@ section {
 }
 #approach i {
   font-size: 1.1em;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid currentColor;
+  padding: 10px;
+  margin-left: 0;  
 }
+#approach i::before {
+  content: '——';
+  display: inline-block;
+  margin-right: 0;
+}
+
 
 /*  Panel */
 header {
