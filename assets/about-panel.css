@@ -136,6 +136,7 @@ header {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: var(--marker);
+  text-underline-offset: 5px;
   transition: color 0.3s ease;
   cursor: pointer;
 }
