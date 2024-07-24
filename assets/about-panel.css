@@ -78,6 +78,9 @@ header {
 #bio.panel-active header .profile-img {
   display: none; /* Hide the image in the header */
 }
+#bio.panel-inactive .name { 
+  display: none; /* Hide the text */
+}
 
 .content {
   display: none;
