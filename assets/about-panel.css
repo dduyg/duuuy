@@ -22,8 +22,13 @@ section {
   justify-content: center;
   flex-direction: column;
 }
-#contact {
+#approach {
   border-right: none;
+}
+#contact i {
+  font-size: 1.1em;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*  Panel */
@@ -53,11 +58,6 @@ header {
 
 #bio header, #contact header {
   transform: rotate(0deg); /* No rotation for image/icon */
-}
-#contact i {
-  font-size: 1.1em;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .profile-img {
