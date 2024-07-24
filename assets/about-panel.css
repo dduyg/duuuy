@@ -65,10 +65,9 @@ header {
   white-space: nowrap;
 }
 
-#bio header, #contact header {
-  transform: rotate(0deg); /* No rotation for image/icon */
+#bio header {
+  transform: rotate(0deg); /* No rotation for image */
 }
-
 .profile-img {
   position: relative;
   display: inline-block;
