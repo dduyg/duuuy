@@ -31,7 +31,7 @@ section {
 header {
   font-family: "Sofia Sans Extra Condensed", sans-serif;
   transform: rotate(-90deg);
-  font-size: min(5vw, 32px);
+  font-size: min(5.5vw, 32px);
   margin: 0;
   padding: 0;
 }
