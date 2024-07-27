@@ -42,7 +42,7 @@ header {
 }
 .panel-active header {
   color: var(--marker);
-  font-size: min(6vw, 32px) !important;
+  font-size: min(8vw, 32px) !important;
   transform: rotate(0deg);
   transition: 0.5s ease;
   padding: 0 8%;
