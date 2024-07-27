@@ -76,6 +76,9 @@ header {
 #bio.panel-inactive .name { 
   display: none; /* Hide the text */
 }
+#about.panel-inactive header { 
+  padding: 1.5em;
+}
 
 .content {
   display: none;
