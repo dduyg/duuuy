@@ -64,11 +64,11 @@ header {
   float: right;
   margin: 0;
   padding: 0;
+  margin-left: 0.3em;
   pointer-events: none;
 }
 #bio.panel-inactive .profile-img {
   width: 3.2em !important;
-  margin-left: 0.3em;
 }
 #bio.panel-active header .profile-img {
   display: none; /* Hide the image in the header */
