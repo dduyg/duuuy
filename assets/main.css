@@ -23,6 +23,14 @@ a {
   text-decoration: none;
 }
 
+a.link {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: var(--mono-font);
+  padding-bottom: 0px !important;
+  border-bottom: 2px solid #888888;
+  transform: skew(-12deg) translateX(-50%);
+}
+
 .inline-icon {
   display: inline-block;
   width: 1em;
