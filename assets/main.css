@@ -37,20 +37,6 @@ a.link {
   vertical-align: middle;
 }
 
-u {
-  text-decoration: none;
-  position: relative;
-}
-u::before {
-  content: '';
-  position: absolute;
-  top: -0.15em;
-  left: 0;
-  right: 0;
-  height: 1.1px; /* Intermediate thickness */
-  background-color: currentColor;
-}
-
 /* Navigation
 ------------------------------*/
 nav {
