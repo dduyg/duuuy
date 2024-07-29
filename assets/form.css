@@ -1,12 +1,7 @@
 /* Styling for the contact form */
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     max-width: 600px;
-    margin: 2em auto;
+    margin: 80px auto;
     padding: 1em;
     font-size: 16px;
 }
