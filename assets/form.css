@@ -1,8 +1,4 @@
 /* Styling for the contact form */
-body, html {
-    height: 100%;
-}
-
 main {
     display: flex;
     flex-direction: column;
