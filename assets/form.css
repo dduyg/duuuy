@@ -21,6 +21,8 @@ body, html {
 }
 
 #contact-form p {
+    text-align: center;
+    font-size: .875rem;
     margin-top: 0;
     padding-top: 0;
     margin-bottom: 30px;
