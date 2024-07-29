@@ -32,12 +32,12 @@ h1::before, h1::after {
 }
 h1::before {
   left: 2px;
-  text-shadow: -2px 0 cyan;
+  text-shadow: -2px 0 #C4C8CB;
   animation: glitch 1s infinite reverse;
 }
 h1::after {
   left: -2px;
-  text-shadow: -2px 0 red;
+  text-shadow: -2px 0 #949EA7;
   animation: glitch 1.5s infinite;
 }
 @keyframes glitch {
