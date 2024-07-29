@@ -22,10 +22,10 @@ body, html {
 
 #contact-form p {
     text-align: center;
-    font-size: .875rem;
+    font-size: .9em;
     margin-top: 0;
     padding-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
 }
 
 .contacting {
@@ -35,21 +35,21 @@ body, html {
 
 .form-group {
     font-family: var(--mono-font);
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 form label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 0.3125em;
 }
 
 .form-group input,
 .form-group textarea {
     width: 100%;
-    padding: 10px;
+    padding: 0.625em;
     border: 1px solid var(--color-light-main);
     border-radius: .25rem;
-    font-size: 1rem;
+    font-size: 1em;
     font-family: var(--mono-font);
     box-sizing: border-box;
     background-color: #969696;
@@ -69,7 +69,7 @@ form label {
 form button {
     display: block;
     width: 100%;
-    padding: 10px;
+    padding: 0.625em;
     font-family: var(--mono-font);
     background-color: var(--color-light-main);
     color: #B8B9BE;
