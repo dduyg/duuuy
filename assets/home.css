@@ -31,11 +31,11 @@ h1 {
 }
 .glitch::before {
   left: 2px;
-  text-shadow: -2px 0 #00ffef;
+  text-shadow: -2px 0 #585858;
 }
 .glitch::after {
   left: -2px;
-  text-shadow: -2px 0 #ff00f7;
+  text-shadow: -2px 0 #898989;
 }
 @keyframes glitch-animation {
   0% { clip: rect(60px, 9999px, 33px, 0); }
