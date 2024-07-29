@@ -19,7 +19,7 @@ h1 {
   animation: glitch 1s infinite;
 }
         h1::before, h1::after {
-            content: 'Duygu Dağdelen;
+            content: 'Duygu Dağdelen';
             position: absolute;
             left: 0;
             top: 0;
