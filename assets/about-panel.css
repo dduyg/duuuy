@@ -88,6 +88,7 @@ header {
   overflow-y: auto;
   max-width: 800px;
   max-height: calc(100% - 20px);
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS */ 
 }
 
 /* Custom scrollbar */
