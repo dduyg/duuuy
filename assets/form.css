@@ -1,5 +1,10 @@
 /* Styling for the contact form */
 main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     max-width: 600px;
     margin: 0 auto;
     padding: 10% 1em 5%;
