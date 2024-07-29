@@ -1,17 +1,17 @@
 /* Styling for the contact form */
 body, html {
     height: 100%;
-    margin: 0;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    max-width: 600px;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+max-width: 600px;
     padding: 1em;
-    margin-top: 3em;
+    margin: 3em auto 0;
 }
 
 h1 {
