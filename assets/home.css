@@ -38,7 +38,7 @@ main {
 }
 .home-header::after {
   left: -2px;
-  text-shadow: -2px 0 #5a5a5a;
+  text-shadow: -2px 0 #6a6468;
   animation: glitch 1.5s infinite;
 }
 @keyframes glitch {
