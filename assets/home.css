@@ -1,3 +1,13 @@
+:root {
+  --font-size-home-header: 1.6em;
+}
+
+@media screen and (min-width: 60em) {
+  :root {
+    --font-size-home-header: 2em;
+  }
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -13,7 +23,7 @@ main {
 
 .home-header {
   display: block;
-  font-size: 1.6em;
+  font-size: var(--font-size-home-header);
   color: #7B7B7B;
   font-weight: bold;
   font-family: var(--mono-font);
@@ -44,100 +54,58 @@ main {
 }
 @keyframes glitch {
   0% {
-      clip: rect(12px, 9999px, 101px, 0);
-      transform: skew(0.3deg);
+    clip: rect(calc(12px * var(--font-size-factor)), 9999px, calc(101px * var(--font-size-factor)), 0);
+    transform: skew(0.3deg);
   }
   10% {
-      clip: rect(83px, 9999px, 113px, 0);
-      transform: skew(0.6deg);
+    clip: rect(calc(83px * var(--font-size-factor)), 9999px, calc(113px * var(--font-size-factor)), 0);
+    transform: skew(0.6deg);
   }
   20% {
-      clip: rect(39px, 9999px, 82px, 0);
-      transform: skew(0.4deg);
+    clip: rect(calc(39px * var(--font-size-factor)), 9999px, calc(82px * var(--font-size-factor)), 0);
+    transform: skew(0.4deg);
   }
   30% {
-      clip: rect(13px, 9999px, 84px, 0);
-      transform: skew(0.8deg);
+    clip: rect(calc(13px * var(--font-size-factor)), 9999px, calc(84px * var(--font-size-factor)), 0);
+    transform: skew(0.8deg);
   }
   40% {
-      clip: rect(82px, 9999px, 45px, 0);
-      transform: skew(0.3deg);
+    clip: rect(calc(82px * var(--font-size-factor)), 9999px, calc(45px * var(--font-size-factor)), 0);
+    transform: skew(0.3deg);
   }
   50% {
-      clip: rect(43px, 9999px, 75px, 0);
-      transform: skew(0.6deg);
+    clip: rect(calc(43px * var(--font-size-factor)), 9999px, calc(75px * var(--font-size-factor)), 0);
+    transform: skew(0.6deg);
   }
   60% {
-      clip: rect(65px, 9999px, 120px, 0);
-      transform: skew(0.4deg);
+    clip: rect(calc(65px * var(--font-size-factor)), 9999px, calc(120px * var(--font-size-factor)), 0);
+    transform: skew(0.4deg);
   }
   70% {
-      clip: rect(57px, 9999px, 96px, 0);
-      transform: skew(0.8deg);
+    clip: rect(calc(57px * var(--font-size-factor)), 9999px, calc(96px * var(--font-size-factor)), 0);
+    transform: skew(0.8deg);
   }
   80% {
-      clip: rect(45px, 9999px, 78px, 0);
-      transform: skew(0.3deg);
+    clip: rect(calc(45px * var(--font-size-factor)), 9999px, calc(78px * var(--font-size-factor)), 0);
+    transform: skew(0.3deg);
   }
   90% {
-      clip: rect(36px, 9999px, 57px, 0);
-      transform: skew(0.6deg);
+    clip: rect(calc(36px * var(--font-size-factor)), 9999px, calc(57px * var(--font-size-factor)), 0);
+    transform: skew(0.6deg);
   }
   100% {
-      clip: rect(89px, 9999px, 100px, 0);
-      transform: skew(0.4deg);
+    clip: rect(calc(89px * var(--font-size-factor)), 9999px, calc(100px * var(--font-size-factor)), 0);
+    transform: skew(0.4deg);
   }
 }
 
+:root {
+  --font-size-factor: 1;
+}
+
 @media screen and (min-width: 60em) {
-  .home-header {
-    font-size: 2em !important;
-  }
-  @keyframes glitch {
-    0% {
-        clip: rect(24px, 9999px, 202px, 0);
-        transform: skew(0.3deg);
-    }
-    10% {
-        clip: rect(166px, 9999px, 226px, 0);
-        transform: skew(0.6deg);
-    }
-    20% {
-        clip: rect(78px, 9999px, 164px, 0);
-        transform: skew(0.4deg);
-    }
-    30% {
-        clip: rect(26px, 9999px, 168px, 0);
-        transform: skew(0.8deg);
-    }
-    40% {
-        clip: rect(164px, 9999px, 90px, 0);
-        transform: skew(0.3deg);
-    }
-    50% {
-        clip: rect(86px, 9999px, 150px, 0);
-        transform: skew(0.6deg);
-    }
-    60% {
-        clip: rect(130px, 9999px, 240px, 0);
-        transform: skew(0.4deg);
-    }
-    70% {
-        clip: rect(114px, 9999px, 192px, 0);
-        transform: skew(0.8deg);
-    }
-    80% {
-        clip: rect(90px, 9999px, 156px, 0);
-        transform: skew(0.3deg);
-    }
-    90% {
-        clip: rect(72px, 9999px, 114px, 0);
-        transform: skew(0.6deg);
-    }
-    100% {
-        clip: rect(178px, 9999px, 200px, 0);
-        transform: skew(0.4deg);
-    }
+  :root {
+    --font-size-factor: calc(2em / 1.6em);
   }
 }
 
