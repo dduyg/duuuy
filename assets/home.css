@@ -1,3 +1,7 @@
+:root {
+  --base-font-size: 1.6em;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -13,7 +17,7 @@ main {
 
 .home-header {
   display: block;
-  font-size: 1.6em;
+  font-size: var(--base-font-size);
   color: #7B7B7B;
   font-weight: bold;
   font-family: var(--mono-font);
@@ -30,7 +34,7 @@ main {
   height: 100%;
   background: transparent;
   overflow: hidden;
-  clip: var(--clip);
+  clip: rect(0, 0, 0, 0);
 }
 .home-header::before {
   left: 2px;
@@ -42,57 +46,56 @@ main {
   text-shadow: -2px 0 #949EA7;
   animation: glitch 1.5s infinite;
 }
-
 @keyframes glitch {
   0% {
-      --clip: rect(0, 900px, 12px, 0);
+      clip: rect(calc(var(--base-font-size) * 0.75), 9999px, calc(var(--base-font-size) * 6.3), 0);
       transform: skew(0.3deg);
   }
   10% {
-      --clip: rect(30px, 900px, 83px, 0);
+      clip: rect(calc(var(--base-font-size) * 5.2), 9999px, calc(var(--base-font-size) * 7.1), 0);
       transform: skew(0.6deg);
   }
   20% {
-      --clip: rect(10px, 900px, 39px, 0);
+      clip: rect(calc(var(--base-font-size) * 2.45), 9999px, calc(var(--base-font-size) * 5.2), 0);
       transform: skew(0.4deg);
   }
   30% {
-      --clip: rect(20px, 900px, 13px, 0);
+      clip: rect(calc(var(--base-font-size) * 0.8), 9999px, calc(var(--base-font-size) * 5.25), 0);
       transform: skew(0.8deg);
   }
   40% {
-      --clip: rect(25px, 900px, 82px, 0);
+      clip: rect(calc(var(--base-font-size) * 5.2), 9999px, calc(var(--base-font-size) * 2.8), 0);
       transform: skew(0.3deg);
   }
   50% {
-      --clip: rect(10px, 900px, 43px, 0);
+      clip: rect(calc(var(--base-font-size) * 2.75), 9999px, calc(var(--base-font-size) * 4.6), 0);
       transform: skew(0.6deg);
   }
   60% {
-      --clip: rect(40px, 900px, 65px, 0);
+      clip: rect(calc(var(--base-font-size) * 4.15), 9999px, calc(var(--base-font-size) * 7.7), 0);
       transform: skew(0.4deg);
   }
   70% {
-      --clip: rect(60px, 900px, 57px, 0);
+      clip: rect(calc(var(--base-font-size) * 3.65), 9999px, calc(var(--base-font-size) * 6.2), 0);
       transform: skew(0.8deg);
   }
   80% {
-      --clip: rect(5px, 900px, 45px, 0);
+      clip: rect(calc(var(--base-font-size) * 2.9), 9999px, calc(var(--base-font-size) * 5), 0);
       transform: skew(0.3deg);
   }
   90% {
-      --clip: rect(25px, 900px, 36px, 0);
+      clip: rect(calc(var(--base-font-size) * 2.3), 9999px, calc(var(--base-font-size) * 3.7), 0);
       transform: skew(0.6deg);
   }
   100% {
-      --clip: rect(55px, 900px, 89px, 0);
+      clip: rect(calc(var(--base-font-size) * 5.7), 9999px, calc(var(--base-font-size) * 6.25), 0);
       transform: skew(0.4deg);
   }
 }
 
 @media screen and (min-width: 60em) {
-  .home-header {
-    font-size: 2em !important;
+  :root {
+    --base-font-size: 2em;
   }
 }
 
