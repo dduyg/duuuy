@@ -92,7 +92,6 @@ main {
 @media screen and (min-width: 60em) {
   .home-header {
     font-size: 2em !important;
-    white-space: nowrap;
   }
   @keyframes glitch {
     0% {
