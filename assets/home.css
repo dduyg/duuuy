@@ -11,8 +11,7 @@ main {
   color: var(--color-light-main);
 }
 
-.home-header {
-  font-size: 1.6em;
+h2 {
   color: #7B7B7B;
   font-family: var(--mono-font);
   align-self: flex-start;
@@ -21,7 +20,7 @@ main {
   position: relative;
   animation: glitch 1s infinite;
 }
-.home-header::before, .home-header::after {
+h2::before, h2::after {
   content: attr(data-text);
   position: absolute;
   left: 0;
@@ -32,12 +31,12 @@ main {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
 }
-.home-header::before {
+h2::before {
   left: 2px;
   text-shadow: -2px 0 #C4C8CB;
   animation: glitch 1s infinite reverse;
 }
-.home-header::after {
+h2::after {
   left: -2px;
   text-shadow: -2px 0 #949EA7;
   animation: glitch 1.5s infinite;
