@@ -15,7 +15,9 @@ main {
   font-size: 1.6em;
   color: #7B7B7B;
   font-family: var(--mono-font);
+  align-self: flex-start;
   margin: 0;
+  margin-left: 2rem;
   position: relative;
   animation: glitch 1s infinite;
 }
