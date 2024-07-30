@@ -13,8 +13,9 @@ main {
 
 .home-header {
   display: block;
-  font-size: 1.5em;
+  font-size: 1.6em;
   color: #7B7B7B;
+  font-weight: bold;
   font-family: var(--mono-font);
   margin: 0;
   position: relative;
