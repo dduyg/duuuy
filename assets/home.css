@@ -14,6 +14,7 @@ main {
 .home-header {
   color: #7B7B7B;
   font-family: var(--mono-font);
+  font-style: italic;
   align-self: flex-start;
   margin: 0;
   margin-left: 2rem;
