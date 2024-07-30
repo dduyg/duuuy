@@ -12,7 +12,7 @@ main {
 }
 
 .home-header {
-  display: inline-block;
+  display: block;
   font-size: 1.6em;
   color: #7B7B7B;
   font-weight: bold;
@@ -30,7 +30,7 @@ main {
   height: 100%;
   background: transparent;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  clip: var(--clip);
 }
 .home-header::before {
   left: 2px;
@@ -42,49 +42,50 @@ main {
   text-shadow: -2px 0 #949EA7;
   animation: glitch 1.5s infinite;
 }
+
 @keyframes glitch {
   0% {
-      clip: rect(12px, 9999px, 101px, 0);
+      --clip: rect(0, 900px, 12px, 0);
       transform: skew(0.3deg);
   }
   10% {
-      clip: rect(83px, 9999px, 113px, 0);
+      --clip: rect(30px, 900px, 83px, 0);
       transform: skew(0.6deg);
   }
   20% {
-      clip: rect(39px, 9999px, 82px, 0);
+      --clip: rect(10px, 900px, 39px, 0);
       transform: skew(0.4deg);
   }
   30% {
-      clip: rect(13px, 9999px, 84px, 0);
+      --clip: rect(20px, 900px, 13px, 0);
       transform: skew(0.8deg);
   }
   40% {
-      clip: rect(82px, 9999px, 45px, 0);
+      --clip: rect(25px, 900px, 82px, 0);
       transform: skew(0.3deg);
   }
   50% {
-      clip: rect(43px, 9999px, 75px, 0);
+      --clip: rect(10px, 900px, 43px, 0);
       transform: skew(0.6deg);
   }
   60% {
-      clip: rect(65px, 9999px, 120px, 0);
+      --clip: rect(40px, 900px, 65px, 0);
       transform: skew(0.4deg);
   }
   70% {
-      clip: rect(57px, 9999px, 96px, 0);
+      --clip: rect(60px, 900px, 57px, 0);
       transform: skew(0.8deg);
   }
   80% {
-      clip: rect(45px, 9999px, 78px, 0);
+      --clip: rect(5px, 900px, 45px, 0);
       transform: skew(0.3deg);
   }
   90% {
-      clip: rect(36px, 9999px, 57px, 0);
+      --clip: rect(25px, 900px, 36px, 0);
       transform: skew(0.6deg);
   }
   100% {
-      clip: rect(89px, 9999px, 100px, 0);
+      --clip: rect(55px, 900px, 89px, 0);
       transform: skew(0.4deg);
   }
 }
