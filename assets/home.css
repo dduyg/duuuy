@@ -22,7 +22,7 @@ main {
   animation: glitch 1s infinite;
 }
 .home-header::before, .home-header::after {
-  content: 'Duygu Dağdelen';
+  content: attr(data-text);
   position: absolute;
   left: 0;
   top: 0;
