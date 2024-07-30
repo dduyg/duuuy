@@ -11,15 +11,16 @@ main {
   color: var(--color-light-main);
 }
 
-h1 {
-  margin-bottom: 0;
-
+.home-header {
+  display: block;
+  font-size: 1.5em;
   color: #7B7B7B;
   font-family: var(--mono-font);
+  margin: 0;
   position: relative;
   animation: glitch 1s infinite;
 }
-h1::before, h1::after {
+.home-header::before, .home-header::after {
   content: 'Duygu Dağdelen';
   position: absolute;
   left: 0;
@@ -30,12 +31,12 @@ h1::before, h1::after {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
 }
-h1::before {
+.home-header::before {
   left: 2px;
   text-shadow: -2px 0 #C4C8CB;
   animation: glitch 1s infinite reverse;
 }
-h1::after {
+.home-header::after {
   left: -2px;
   text-shadow: -2px 0 #949EA7;
   animation: glitch 1.5s infinite;
